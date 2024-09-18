@@ -1,10 +1,15 @@
 #!/usr/bin/python3
-# Importing the add function hopefully
-from add_0 import add
 
-# Variables
-a = 1
-b = 2
+"""
+a function to add two numbers.
+"""
 
-# Printing the result
-print("{} + {} = {}".format(a, b, add(a, b)))
+def add(a, b):
+
+return a + b
+
+if __name__ == "__main__":
+# Example usage of the add function
+print("This module is being run directly")
+result = add(3, 4)
+print("3 + 4 = {}".format(result))
