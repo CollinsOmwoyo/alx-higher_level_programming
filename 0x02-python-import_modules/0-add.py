@@ -2,12 +2,12 @@
 from add_0 import add
 
 def main():
-# Variables
+#variables a and b
 a = 1
 b = 2
 
-# Print result
-print("{} + {} = {}".format(a, b, add(a, b)))
+# print function with string formatting
+    print("{} + {} = {}".format(a, b, add(a, b)))
 
 if __name__ == "__main__":
-main()
+    main()
