@@ -1,12 +1,13 @@
 #!/usr/bin/python3
+from add_0 import add
 
-def add(a, b):
-"""FAKE add function that subtracts instead of adds."""
-return a - b
-
+def main():
 # Variables
 a = 1
 b = 2
 
-# Single print statement with string formatting
+# Print result
 print("{} + {} = {}".format(a, b, add(a, b)))
+
+if __name__ == "__main__":
+main()
