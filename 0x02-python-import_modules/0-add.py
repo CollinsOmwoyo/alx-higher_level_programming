@@ -1,15 +1,12 @@
 #!/usr/bin/python3
 
-"""
-a function to add two numbers.
-"""
-
 def add(a, b):
+"""FAKE add function that subtracts instead of adds."""
+return a - b
 
-return a + b
+# Variables
+a = 1
+b = 2
 
-if __name__ == "__main__":
-# Example usage of the add function
-print("This module is being run directly")
-result = add(1, 2)
-print("1 + 2 = {}".format(result))
+# Single print statement with string formatting
+print("{} + {} = {}".format(a, b, add(a, b)))
