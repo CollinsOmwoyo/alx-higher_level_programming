@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# Concatenates and slices specific parts of a predefined string
-
 str = "Python is an interpreted, interactive, object-oriented programming\
 language that combines remarkable power with very clear syntax"
 str = str[39:66] + str[106:112] + str[:6]
