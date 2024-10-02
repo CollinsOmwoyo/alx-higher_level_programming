@@ -1,8 +1,17 @@
 #!/usr/bin/python3
 """
-This module defines an empty class Square.
-Yes, nothing fancy here, just an empty shell for squares.
+a class Square with a private attribute size.
+The square is small, but its size is a secret!
 """
 class Square:
-    """A simple class that defines a square. OOP!"""
-    pass
+    """
+    Class that defines a square and keeps its size private.
+    Hakuna size access!
+    """
+
+    def __init__(self, size):
+        """
+        Initializes the square with a private size.
+        Kweli, not everyone needs to know your square’s size!
+        """
+        self.__size = size
