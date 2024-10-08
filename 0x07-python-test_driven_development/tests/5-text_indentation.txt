@@ -1,0 +1,14 @@
+>>> text_indentation("Hello? Yes. No!")
+Hello?
+
+Yes.
+
+No!
+>>> text_indentation("This is a test: and it works.")
+This is a test:
+
+and it works.
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
