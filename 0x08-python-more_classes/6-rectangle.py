@@ -79,13 +79,13 @@ class Rectangle:
 
     def __repr__(self):
         """
-        Returns a string representation of the rectangle to recreate the instance.
+        Returns a string representation of the rectangle.
         """
         return f"Rectangle({self.__width}, {self.__height})"
 
     def __del__(self):
         """
-        Prints a message when the instance is deleted and decrements the instance count.
+        Prints a message when deleted and decrements count.
         """
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
