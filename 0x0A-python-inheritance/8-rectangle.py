@@ -4,7 +4,6 @@ This module defines the `Rectangle` class,
 and represents a rectangle with validated dimensions.
 """
 
-
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
