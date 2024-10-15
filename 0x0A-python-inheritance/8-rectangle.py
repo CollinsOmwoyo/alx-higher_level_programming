@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines the `Rectangle` class, from `BaseGeometry`
+This module defines the `Rectangle` class,
 and represents a rectangle with validated dimensions.
 """
 
@@ -8,7 +8,7 @@ and represents a rectangle with validated dimensions.
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
-    """A class to represent a rectangle, from BaseGeometry."""
+    """A class to represent a rectangle."""
 
     def __init__(self, width, height):
         """
