@@ -6,5 +6,5 @@ geometric operations.
 
 
 class BaseGeometry:
-    """An empty class that serves as a foundation for geometry-related objects."""
+    """An empty class that serves as a foundation for geo-objects."""
     pass
