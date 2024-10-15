@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines the `lookup` function, which retrieves all 
+This module defines the `lookup` function, which retrieves all
 attributes and methods available for a given object.
 """
 
