@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Module containing MyList class that extends list."""
+
 class MyList(list):
     """Class that inherits list and implements a sorted print function."""
     
