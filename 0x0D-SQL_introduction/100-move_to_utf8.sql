@@ -1,9 +1,7 @@
--- 100-move_to_utf8.sql
-ALTER DATABASE hbtn_0c_0 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
+-- Script to calculate the average temperature (Fahrenheit) by city
+-- Results are ordered by temperature in descending order
 
-USE hbtn_0c_0;
-
-ALTER TABLE first_table CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-ALTER TABLE first_table
-MODIFY name VARCHAR(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+SELECT city, AVG(temperature) AS avg_temp
+FROM temperatures
+GROUP BY city
+ORDER BY avg_temp DESC;
