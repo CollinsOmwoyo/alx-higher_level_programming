@@ -1,7 +1,20 @@
 #!/usr/bin/python3
+"""
+Module for finding a peak element in a list of unsorted integers.
+"""
 
 def find_peak(list_of_integers):
-
+    """
+    Finds a peak in an unsorted list of integers.
+    
+    A peak is an element that is greater than or equal to its neighbors.
+    
+    Args:
+        list_of_integers (list): A list of integers.
+    
+    Returns:
+        int or None: A peak element if found, otherwise None.
+    """
     if list_of_integers is None or len(list_of_integers) == 0:
         return None
 
